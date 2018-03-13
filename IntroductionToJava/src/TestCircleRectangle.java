@@ -7,7 +7,7 @@ public class TestCircleRectangle {
 		System.out.println("The diameter is " + circle.getDiameter());
 
 		Rectangle1 rectangle = new Rectangle1(2, 4);
-		System.out.println("\nA circle " + rectangle.toString());
+		System.out.println("\nA rectangle " + rectangle.toString());
 		System.out.println("The area is " + rectangle.getArea());
 		System.out.println("The perimeter is " + rectangle.getPerimeter());
 	}

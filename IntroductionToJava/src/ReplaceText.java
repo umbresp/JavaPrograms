@@ -4,7 +4,7 @@ import java.util.*;
 public class ReplaceText {
 	public static void main(String[] args) throws Exception {
 		// Check command line-parameter usage
-		if (args.length !=4) {
+		if (args.length != 4) {
 			System.out.println("Usage: java ReplaceText sourceFile targetFile oldStr newStr");
 			System.exit(0);
 		}
@@ -17,9 +17,9 @@ public class ReplaceText {
 		}
 
 		// Check if target file exists
-		File targetFile = new File(args[0]);
+		File targetFile = new File(args[1]);
 		if (targetFile.exists()) {
-			System.out.println("Target file " + args[1] + " already exist");
+			System.out.println("Target file " + args[1] + " already exists");
 			System.exit(0);
 		}
 
